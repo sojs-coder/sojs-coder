@@ -77,3 +77,12 @@ const uid = () => {
   });
 };
 ```
+
+### randRange
+Generates a random number in range
+
+```js
+function randRange(min, max) {
+  return Math.random() * (max - min) + min;
+}
+```
